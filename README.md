@@ -5,7 +5,6 @@
 <H1 ALIGN =CENTER> Introduction to Kaggle and Data preprocessing</H1>
 
 ## AIM:
-
 To perform Data preprocessing in a data set downloaded from Kaggle
 
 ## EQUIPMENTS REQUIRED:
@@ -92,19 +91,27 @@ print("\nLenght of X_test ",len(X_test))
 
 ## OUTPUT:
 ### dataset:
-![output](image.png)
+![Screenshot 2024-08-25 222348](https://github.![Screenshot 2024-08-25 222419](https://github.com/user-attachments/assets/9af7a477-0d9d-45bd-8b31-c092aed85f29)
+com/user-attachments/assets/8e9fc8c7-9ac2-4968-a343-302bec06760e)
+
 ### Finding Missing Values:
-![output](image-1.png)
+![Screenshot 2024-08-25 222402](https://github.com/user-attachments/assets/5d4d6c51-72f4-494c-a0b1-37624421a5c8)
+
 ### Handling Missing values:
-![output](image-2.png)
+![Screenshot 2024-08-25 222419](https://github.com/user-attachments/assets/6290ef95-e2ac-474d-9080-85f103021fd9)
+
 ### Duplicates:
-![output](image-3.png)
+![Screenshot 2024-08-25 222447](https://github.com/user-attachments/assets/02acdfd1-eed5-45c8-8207-bedbd8b61802)
+
 ### Normalize the dataset:
-![output](image-4.png)
+![Screenshot 2024-08-25 222510](https://github.com/user-attachments/assets/3d4d7623-4add-4a8b-86d0-c28bcc36a350)
+
 ### split the dataset into input and output:
-![output](image-5.png)
+![Screenshot 2024-08-25 222523](https://github.com/user-attachments/assets/304f94e5-daa6-4299-9f01-e7740aef7ece)
+
 ### splitting the data for training & Testing:
-![output](image-6.png)
+![Screenshot 2024-08-25 222535](https://github.com/user-attachments/assets/438efb2a-458b-41f2-a44a-95f3f159d2df)
+
 ## RESULT:
 Thus, Implementation of Data Preprocessing is done in python  using a data set downloaded from Kaggle.
 
