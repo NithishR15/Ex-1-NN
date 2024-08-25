@@ -1,5 +1,5 @@
-<H3>ENTER YOUR NAME</H3>
-<H3>ENTER YOUR REGISTER NO.</H3>
+<H3>ENTER YOUR NAME</H3> NITHISH R
+<H3>ENTER YOUR REGISTER NO.</H3> 212223040135
 <H3>EX. NO.1</H3>
 <H3>DATE</H3>
 <H1 ALIGN =CENTER> Introduction to Kaggle and Data preprocessing</H1>
@@ -37,13 +37,74 @@ STEP 5:Normalizing the data<BR>
 STEP 6:Splitting the data into test and train<BR>
 
 ##  PROGRAM:
-TYPE YOUR CODE HERE
+```python
+#import libraries
+from google.colab import files
+import pandas as pd
+import io
+from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.model_selection import train_test_split
+
+#Read the dataset from drive
+df=pd.read_csv('/content/Churn_Modelling.csv')
+df
+
+# Finding Missing Values
+print(df.isnull().sum())
+
+#Handling Missing values
+df.fillna(df.mean(),inplace=True)
+print(df.isnull().sum())
+
+y=df.iloc[:,-1].values
+print(y)
+
+#Check for Duplicates
+df.duplicated()
+
+#Detect Outliers
+df.describe()
+
+#Normalize the dataset
+scaler=MinMaxScaler()
+df1=pd.DataFrame(scaler.fit_transform(data))
+print(df1)
+
+#split the dataset into input and output
+x=df.iloc[:, :-1].values
+print(x)
+y=df.iloc[:,-1].values
+print(y)
+
+#splitting the data for training & Testing
+X_train ,X_test ,y_train,y_test=train_test_split(x,y,test_size=0.2)
+
+#Print the training data and testing data
+print("X_train\n")
+print(X_train)
+print("\nLenght of X_train ",len(X_train))
+print("\nX_test\n")
+print(X_test)
+print("\nLenght of X_test ",len(X_test))
+```
 
 
 ## OUTPUT:
-SHOW YOUR OUTPUT HERE
-
-
+### dataset:
+![output](image.png)
+### Finding Missing Values:
+![output](image-1.png)
+### Handling Missing values:
+![output](image-2.png)
+### Duplicates:
+![output](image-3.png)
+### Normalize the dataset:
+![output](image-4.png)
+### split the dataset into input and output:
+![output](image-5.png)
+### splitting the data for training & Testing:
+![output](image-6.png)
 ## RESULT:
 Thus, Implementation of Data Preprocessing is done in python  using a data set downloaded from Kaggle.
 
