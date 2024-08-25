@@ -1,5 +1,5 @@
-<H3>ENTER YOUR NAME</H3> NITHISH R
-<H3>ENTER YOUR REGISTER NO.</H3> 212223040135
+<H3>ENTER YOUR NAME:</H3> NITHISH R
+<H3>ENTER YOUR REGISTER NO:</H3> 212223040135
 <H3>EX. NO.1</H3>
 <H3>DATE</H3>
 <H1 ALIGN =CENTER> Introduction to Kaggle and Data preprocessing</H1>
@@ -91,8 +91,8 @@ print("\nLenght of X_test ",len(X_test))
 
 ## OUTPUT:
 ### dataset:
-![Screenshot 2024-08-25 222348](https://github.![Screenshot 2024-08-25 222419](https://github.com/user-attachments/assets/9af7a477-0d9d-45bd-8b31-c092aed85f29)
-com/user-attachments/assets/8e9fc8c7-9ac2-4968-a343-302bec06760e)
+![Screenshot 2024-08-25 222348](https://github.com/user-attachments/assets/3f32590f-123e-47b0-8353-691723bdf46b)
+
 
 ### Finding Missing Values:
 ![Screenshot 2024-08-25 222402](https://github.com/user-attachments/assets/5d4d6c51-72f4-494c-a0b1-37624421a5c8)
